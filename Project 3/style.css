@@ -1,0 +1,80 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+.container{
+   background-image: url(./assets/bg.png);
+   background-size: cover;
+   height: 100vh;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: black;
+   color: aliceblue;
+}
+.line{
+   height: 50px;
+
+   border-left: 1px solid aliceblue;
+   
+   margin-left: -100px;
+}
+
+.list{
+   display: flex;
+   list-style-type: none;
+   margin-right: 100px;
+   margin-left: -100px;
+
+}
+
+.list-item{
+   margin-right: 30px;
+   font-family: Poppins;
+}
+
+.hero{
+   text-align: center;
+   position: relative;
+   margin-top: 30vh;
+}
+
+.hero-heading{
+   font-size: 70px;
+   font-family:Montserrat ;
+   color: aliceblue;
+}
+
+.hero-description{
+   font-size: 20px;
+   font-family:Montserrat ;
+   color: aliceblue;
+  
+}
+
+.button-small{
+   padding: 6px 12px 6px 12px;
+   font-size: 12px;
+   border-radius: 5px;
+   background-color: #ba0cc5;
+   color: aliceblue;
+   font-family:Montserrat ;
+
+}
+
+.button-large{
+   background-color: #ba0cc5;
+   color: aliceblue;
+   border-radius: 5px;
+   border: none;
+   margin-top: 10vh;
+   padding: 10px 20px 10px 20px ;
+   font-size: 20px;
+   font-family:Montserrat ;
+   
+}

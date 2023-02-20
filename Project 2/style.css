@@ -1,0 +1,65 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.navbar-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-left: 50px;
+}
+
+.list{
+   display: flex;
+   list-style-type: none;
+   margin-right: 300px;
+   }
+
+   .list-item{
+      margin-left: 40px;
+      font-family: Poppins;
+      opacity: 50%;
+   }
+   .opaque{
+      opacity: 100%;
+   }
+
+   .nav-button{
+      margin-right: 200px;
+      padding: 10px 20px 10px 20px;
+      border-radius: 10px;
+      border-style: none;
+      background-color: #5955b3;
+      color: aliceblue;
+      
+   }
+
+   .banner-container{
+      display: flex;
+      font-family: poppins;
+   }
+   .heading-text{
+       font-size: 50px;
+   }
+
+   .heading-text{
+      margin-top: 100px;
+      margin-left: 50px;
+   }
+ span{
+   color: #5955b3;
+ }
+.description{
+   margin-top: 15px;
+   margin-left:60px ;
+   font-size: 13px;
+   font-family: poppins;
+   opacity: 50%;
+}
+
+.btn{
+   margin-left: 70px;
+   margin-top: 40px;
+   padding: 15px 30px 15px 30px;
+}
